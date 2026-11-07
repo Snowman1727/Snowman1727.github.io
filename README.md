@@ -1,6 +1,7 @@
 # Snowman's Little Planet
 
-An original, throwaway homepage prototype. Not the published blog.
+An original, interactive personal homepage, published through GitHub Pages.
+Blog authoring and articles are not implemented yet.
 
 ## Run
 
@@ -18,9 +19,8 @@ npm test
 
 ## Scope
 
-The question is whether a cinematic, interactive snowy planet feels right
-for Snowman's personal home. The user approved one preview composition.
-The prototype lives in `prototype/` on `prototype/snow-planet`.
+The homepage is a cinematic, interactive snowy planet for Snowman's personal
+home. The source lives in `prototype/`.
 
 The planet, cabin, snow, trees, stars, and terrain are created locally with
 Three.js. No models or assets were copied from the reference site. Sora is
@@ -54,5 +54,15 @@ Illustrations are drawn locally with Canvas; no external generation service
 or reference-site assets are used.
 
 There are no real articles or projects yet, so no fictional entries appear.
-Blog authoring and GitHub Pages deployment are deliberately deferred until
-the visual direction is accepted. No changes have been pushed.
+Blog authoring is deferred until there is actual content to publish.
+
+## Deployment
+
+The site is served at `https://snowman1727.github.io/`.
+GitHub Pages uses the GitHub Actions source. Pushing to `main` runs
+`.github/workflows/deploy.yml`: install with Node 24, test, build, and deploy
+only `dist/`. Build output remains excluded from Git.
+
+The repository is a user site, so Vite's default `/` base is correct.
+The four-style comparison remains a local development page and is not
+included in the deployed HTML entry.

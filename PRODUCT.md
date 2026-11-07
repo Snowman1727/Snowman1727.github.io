@@ -12,9 +12,9 @@ has been chosen yet. Do not invent a biography, published posts, or projects.
 ## Product Purpose
 
 Start with a playful, memorable personal home that can grow into a blog.
-The current deliverable is ONE local, interactive homepage prototype, not a
-published blog. The user approved the snowy little planet direction inspired
-by flo-bit.dev after also considering Raycast.
+The current deliverable is one interactive homepage, published through GitHub
+Pages. It does not yet have blog authoring or articles. The user approved the
+snowy little planet direction inspired by flo-bit.dev after considering Raycast.
 
 ## Brand Personality
 
@@ -53,8 +53,9 @@ No special accessibility needs have been specified.
 ## Prototype Scope
 
 One homepage composition, as explicitly agreed with the user. No variant
-switcher, fake content, persistence, CMS, deployment, or GitHub push in this
-round. Evaluate the visual direction before promoting this to production.
+switcher, fake content, persistence, or CMS. The owner subsequently approved
+committing, pushing, and publishing the homepage to the user site's GitHub
+Pages address. Deployment builds `dist/` from `main` using GitHub Actions.
 
 ## Yuanyuan Style Exploration
 
